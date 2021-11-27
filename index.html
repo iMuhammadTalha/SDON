@@ -5,13 +5,13 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>BizPage Bootstrap Template</title>
+  <title>SDON Lab</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/SDON.png" rel="icon">
+  <link href="assets/img/SDON.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
@@ -27,9 +27,35 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
+<style>
+  table {
+          font-family: arial, sans-serif;
+          border-collapse: collapse;
+          width: 100%;
+        }
+        th {
+            border: 1px solid #dddddd;
+            color: white;
+            background-color: #18d26e;
+            text-align: left;
+            padding: 8px;
+        }
+        
+        td {
+          border: 1px solid #dddddd;
+          text-align: left;
+          color: black;
+          padding: 8px;
+        }
+        
+        tr:nth-child(even) {
+          background-color: #dddddd;
+        }
+</style>
+
   <!-- =======================================================
-  * Template Name: BizPage - v5.7.0
-  * Template URL: https://bootstrapmade.com/bizpage-bootstrap-business-template/
+  * Template Name: SDON Lab - v5.7.0
+  * Template URL: https://bootstrapmade.com/SDON Lab-bootstrap-business-template/
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
@@ -43,7 +69,7 @@
 
       <div class="row justify-content-center align-items-center">
         <div class="col-xl-11 d-flex align-items-center justify-content-between">
-          <h1 class="logo"><a href="index.html">BizPage</a></h1>
+          <h1 class="logo"><a href="index.html">SDON Lab</a></h1>
           <!-- Uncomment below if you prefer to use an image logo -->
           <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -51,11 +77,11 @@
             <ul>
               <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
               <li><a class="nav-link scrollto" href="#about">About</a></li>
-              <li><a class="nav-link scrollto" href="#services">Services</a></li>
-              <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
+              <li><a class="nav-link scrollto" href="#services">Research</a></li>
+              <li><a class="nav-link scrollto " href="#portfolio">Events</a></li>
               <li><a class="nav-link scrollto" href="#team">Team</a></li>
-              <li><a class="nav-link  " href="blog.html">Blog</a></li>
-              <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+              <li><a class="nav-link  " href="#publications">Publications</a></li>
+              <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
                 <ul>
                   <li><a href="#">Drop Down 1</a></li>
                   <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
@@ -71,7 +97,7 @@
                   <li><a href="#">Drop Down 3</a></li>
                   <li><a href="#">Drop Down 4</a></li>
                 </ul>
-              </li>
+              </li> -->
               <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
@@ -91,17 +117,17 @@
 
         <div class="carousel-inner" role="listbox">
 
-          <div class="carousel-item active" style="background-image: url(assets/img/hero-carousel/1.jpg)">
+          <div class="carousel-item active" style="background-image: url(assets/img/team/Group.jpeg)">
             <div class="carousel-container">
               <div class="container">
                 <h2 class="animate__animated animate__fadeInDown">We are professional</h2>
-                <p class="animate__animated animate__fadeInUp">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p class="animate__animated animate__fadeInUp">Our Research Team</p>
                 <a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
               </div>
             </div>
           </div>
 
-          <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/2.jpg)">
+          <!-- <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/2.jpg)">
             <div class="carousel-container">
               <div class="container">
                 <h2 class="animate__animated animate__fadeInDown">At vero eos et accusamus</h2>
@@ -139,7 +165,7 @@
                 <a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
               </div>
             </div>
-          </div>
+          </div> -->
 
         </div>
 
@@ -158,7 +184,7 @@
   <main id="main">
 
     <!-- ======= Featured Services Section Section ======= -->
-    <section id="featured-services">
+    <!-- <section id="featured-services">
       <div class="container">
         <div class="row">
 
@@ -182,7 +208,8 @@
 
         </div>
       </div>
-    </section><!-- End Featured Services Section -->
+    </section> -->
+    <!-- End Featured Services Section -->
 
     <!-- ======= About Us Section ======= -->
     <section id="about">
@@ -190,7 +217,9 @@
 
         <header class="section-header">
           <h3>About Us</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <p>
+            This lab is strongly dedicated to interdisciplinary and collaborative (national and international) research providing a favorable atmosphere for exchanging new knowledge and ideas. We strive to connect the diverse ideas for effective networking. It contributes to the advancement and dissemination of knowledge through scholarly (high impact) publications. This lab is also engaged in industrial partnerships and professional networking.
+          </p>
         </header>
 
         <div class="row about-cols">
@@ -203,7 +232,9 @@
               </div>
               <h2 class="title"><a href="#">Our Mission</a></h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                The mission of the Optical Networks and Technology (ONT) lab is to conduct state of the art research and world class education in the field of optical networks and technologies.
+                <!-- The key current research areas include applications of machine learning in optical networks, Open and disaggregated optical networks, virtual passive optical networks (PON), and C-RAN 5G networks. -->
+                  
               </p>
             </div>
           </div>
@@ -216,7 +247,7 @@
               </div>
               <h2 class="title"><a href="#">Our Plan</a></h2>
               <p>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                Soon.
               </p>
             </div>
           </div>
@@ -229,7 +260,7 @@
               </div>
               <h2 class="title"><a href="#">Our Vision</a></h2>
               <p>
-                Nemo enim ipsam voluptatem quia voluptas sit aut odit aut fugit, sed quia magni dolores eos qui ratione voluptatem sequi nesciunt Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.
+                To become a center of excellence for collaborative research and development and capacity building in the field of optical networking to bridge the gap between academia and industry.  
               </p>
             </div>
           </div>
@@ -244,42 +275,41 @@
       <div class="container" data-aos="fade-up">
 
         <header class="section-header wow fadeInUp">
-          <h3>Services</h3>
-          <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus, ad pro quaestio laboramus. Ei ubique vivendum pro. At ius nisl accusam lorenta zanos paradigno tridexa panatarel.</p>
+          <h3>Research Interest</h3>
+          <p>
+            The key current research areas include applications of machine learning in optical networks, Open and disaggregated optical networks, virtual passive optical networks (PON), and C-RAN 5G networks.
+          </p>
         </header>
 
         <div class="row">
 
           <div class="col-lg-4 col-md-6 box" data-aos="fade-up" data-aos-delay="100">
             <div class="icon"><i class="bi bi-briefcase"></i></div>
-            <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+            <h4 class="title"><a href="">Optical Network</a></h4>
+            <p class="description">Optical networking is a means of communication that uses signals encoded in light to transmit information in various types of telecommunications networks. These include limited range local-area networks (LAN) or wide-area networks (WAN), which cross metropolitan and regional areas as well as long-distance national, international and transoceanic networks.</p>
           </div>
           <div class="col-lg-4 col-md-6 box" data-aos="fade-up" data-aos-delay="200">
             <div class="icon"><i class="bi bi-card-checklist"></i></div>
-            <h4 class="title"><a href="">Dolor Sitema</a></h4>
-            <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+            <h4 class="title"><a href="">Open and disaggregated optical network</a></h4>
+            <p class="description">
+              Network Function Disaggregation (NFD) defines the evolution of switching and routing appliances from proprietary, closed hardware and software sourced from a single vendor, towards totally decoupled, open components which are combined to form a complete switching and routing device.
+            </p>
           </div>
           <div class="col-lg-4 col-md-6 box" data-aos="fade-up" data-aos-delay="300">
             <div class="icon"><i class="bi bi-bar-chart"></i></div>
-            <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+            <h4 class="title"><a href="">Virtual passive optical networks (PON)</a></h4>
+            <p class="description">
+              A passive optical network (PON) is a fiber-optic network utilizing a point-to-multipoint topology and optical splitters to deliver data from a single transmission point to multiple user endpoints. Passive, in this context, refers to the unpowered condition of the fiber and splitting/combining components.  
+            </p>
           </div>
           <div class="col-lg-4 col-md-6 box" data-aos="fade-up" data-aos-delay="200">
             <div class="icon"><i class="bi bi-binoculars"></i></div>
-            <h4 class="title"><a href="">Magni Dolores</a></h4>
-            <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+            <h4 class="title"><a href="">C-RAN 5G network</a></h4>
+            <p class="description">
+              a new cloud computing architecture for supporting a the 5G Mobile network. C-RAN breaks apart the traditional cell-based network infrastructure into separate parts that meet the requirements of 5G, while supporting the existing 2G, 3G, and 4G infrastructures. It includes a centralized processing, collaborative radio, and real-time radio networking.
+            </p>
           </div>
-          <div class="col-lg-4 col-md-6 box" data-aos="fade-up" data-aos-delay="300">
-            <div class="icon"><i class="bi bi-brightness-high"></i></div>
-            <h4 class="title"><a href="">Nemo Enim</a></h4>
-            <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
-          </div>
-          <div class="col-lg-4 col-md-6 box" data-aos="fade-up" data-aos-delay="400">
-            <div class="icon"><i class="bi bi-calendar4-week"></i></div>
-            <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
-            <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
-          </div>
+          
 
         </div>
 
@@ -287,16 +317,17 @@
     </section><!-- End Services Section -->
 
     <!-- ======= Call To Action Section ======= -->
-    <section id="call-to-action">
+    <!-- <section id="call-to-action">
       <div class="container text-center" data-aos="zoom-in">
         <h3>Call To Action</h3>
         <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         <a class="cta-btn" href="#">Call To Action</a>
       </div>
-    </section><!-- End Call To Action Section -->
+    </section> -->
+    <!-- End Call To Action Section -->
 
     <!-- ======= Skills Section ======= -->
-    <section id="skills">
+    <!-- <section id="skills">
       <div class="container" data-aos="fade-up">
 
         <header class="section-header">
@@ -333,10 +364,11 @@
         </div>
 
       </div>
-    </section><!-- End Skills Section -->
+    </section> -->
+    <!-- End Skills Section -->
 
     <!-- ======= Facts Section ======= -->
-    <section id="facts">
+    <!-- <section id="facts">
       <div class="container" data-aos="fade-up">
 
         <header class="section-header">
@@ -373,28 +405,36 @@
         </div>
 
       </div>
-    </section><!-- End Facts Section -->
+    </section> -->
+    <!-- End Facts Section -->
 
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="section-bg">
       <div class="container" data-aos="fade-up">
 
         <header class="section-header">
-          <h3 class="section-title">Our Portfolio</h3>
+          <h3 class="section-title">Our Events</h3>
         </header>
 
         <div class="row" data-aos="fade-up" data-aos-delay="100"">
-      <div class=" col-lg-12">
-          <ul id="portfolio-flters">
-            <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-app">App</li>
-            <li data-filter=".filter-card">Card</li>
-            <li data-filter=".filter-web">Web</li>
-          </ul>
+          <!-- <div class=" col-lg-12">
+              <ul id="portfolio-flters">
+                <li data-filter="*" class="filter-active">All</li>
+                <li data-filter=".filter-app">App</li>
+                <li data-filter=".filter-card">Card</li>
+                <li data-filter=".filter-web">Web</li>
+              </ul>
+            </div> -->
         </div>
-      </div>
 
-      <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+        <h1 style="text-align: center;">Software  Defined Optical Network</h4>
+        <p style="text-align: center;"><b>Hybird Training Event</b></p>
+        <img style="display: block; margin-left: auto; margin-right: auto; " height="800" width="800" src="assets/event/Event.jpeg" class="img-fluid" alt="">
+        <p style="text-align: center;">
+          This training is designed for engineers, academic researchers and system staffs working at universities, academic networks and R&E networks especially involved with optical transmission network design & planning, network monitoring & management.
+        </p>
+
+      <!-- <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-app">
           <div class="portfolio-wrap">
@@ -531,7 +571,7 @@
           </div>
         </div>
 
-      </div>
+      </div> -->
 
       </div>
     </section><!-- End Portfolio Section -->
@@ -541,19 +581,23 @@
       <div class="container" data-aos="zoom-in">
 
         <header class="section-header">
-          <h3>Our Clients</h3>
+          <h3>Our Collaborations</h3>
         </header>
 
         <div class="clients-slider swiper">
           <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/collarorations/logo_sanna_en.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/collarorations/pern-log.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/collarorations/NUSTuniversitylogo.jpg" class="img-fluid" alt=""></div>
+            
+            <!-- <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
             <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
             <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
             <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
             <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
             <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
             <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div> -->
           </div>
           <div class="swiper-pagination"></div>
         </div>
@@ -574,12 +618,12 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/testimonial-1.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
+                <img src="assets/img/team/dr.jpeg" class="testimonial-img" alt="">
+                <h3>Dr. Arslan Ahmad</h3>
+                <h4>Director</h4>
                 <p>
                   <img src="assets/img/quote-sign-left.png" class="quote-sign-left" alt="">
-                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                  ABCD.
                   <img src="assets/img/quote-sign-right.png" class="quote-sign-right" alt="">
                 </p>
               </div>
@@ -588,54 +632,16 @@
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <img src="assets/img/testimonial-2.jpg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
+                <h3>Dr. </h3>
+                <h4>Co Director</h4>
                 <p>
                   <img src="assets/img/quote-sign-left.png" class="quote-sign-left" alt="">
-                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                  ABCD
                   <img src="assets/img/quote-sign-right.png" class="quote-sign-right" alt="">
                 </p>
               </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonial-3.jpg" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
-                <p>
-                  <img src="assets/img/quote-sign-left.png" class="quote-sign-left" alt="">
-                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                  <img src="assets/img/quote-sign-right.png" class="quote-sign-right" alt="">
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonial-4.jpg" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
-                <p>
-                  <img src="assets/img/quote-sign-left.png" class="quote-sign-left" alt="">
-                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                  <img src="assets/img/quote-sign-right.png" class="quote-sign-right" alt="">
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonial-5.jpg" class="testimonial-img" alt="">
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
-                <p>
-                  <img src="assets/img/quote-sign-left.png" class="quote-sign-left" alt="">
-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-                  <img src="assets/img/quote-sign-right.png" class="quote-sign-right" alt="">
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
+            </div>
+            
 
           </div>
           <div class="swiper-pagination"></div>
@@ -649,30 +655,13 @@
       <div class="container" data-aos="fade-up">
         <div class="section-header">
           <h3>Team</h3>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+          <p>Meet the exciting team of SDON
+          </p>
         </div>
 
         <div class="row">
 
-          <div class="col-lg-3 col-md-6">
-            <div class="member" data-aos="fade-up" data-aos-delay="100">
-              <img src="assets/img/team-1.jpg" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Walter White</h4>
-                  <span>Chief Executive Officer</span>
-                  <div class="social">
-                    <a href=""><i class="bi bi-twitter"></i></a>
-                    <a href=""><i class="bi bi-facebook"></i></a>
-                    <a href=""><i class="bi bi-instagram"></i></a>
-                    <a href=""><i class="bi bi-linkedin"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
+          <!-- <div class="col-lg-3 col-md-6">
             <div class="member" data-aos="fade-up" data-aos-delay="200">
               <img src="assets/img/team-2.jpg" class="img-fluid" alt="">
               <div class="member-info">
@@ -688,39 +677,160 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
 
           <div class="col-lg-3 col-md-6">
-            <div class="member" data-aos="fade-up" data-aos-delay="300">
-              <img src="assets/img/team-3.jpg" class="img-fluid" alt="">
+            <div class="member" data-aos="fade-up" data-aos-delay="100">
+              <img src="assets/img/team/mati.png" class="img-fluid" alt="">
               <div class="member-info">
                 <div class="member-info-content">
-                  <h4>William Anderson</h4>
-                  <span>CTO</span>
-                  <div class="social">
-                    <a href=""><i class="bi bi-twitter"></i></a>
-                    <a href=""><i class="bi bi-facebook"></i></a>
-                    <a href=""><i class="bi bi-instagram"></i></a>
-                    <a href=""><i class="bi bi-linkedin"></i></a>
-                  </div>
+                  <h4>Mati Ur Rahman</h4>
+                  <span>PhD Student</span>
                 </div>
               </div>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-6">
-            <div class="member" data-aos="fade-up" data-aos-delay="400">
-              <img src="assets/img/team-4.jpg" class="img-fluid" alt="">
+            <div class="member" data-aos="fade-up" data-aos-delay="200">
+              <img src="assets/img/team/Fehmida.jpg" class="img-fluid" alt="">
               <div class="member-info">
                 <div class="member-info-content">
-                  <h4>Amanda Jepson</h4>
-                  <span>Accountant</span>
-                  <div class="social">
-                    <a href=""><i class="bi bi-twitter"></i></a>
-                    <a href=""><i class="bi bi-facebook"></i></a>
-                    <a href=""><i class="bi bi-instagram"></i></a>
-                    <a href=""><i class="bi bi-linkedin"></i></a>
-                  </div>
+                  <h4>Fehmida Usmani</h4>
+                  <span>PhD Student</span>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+
+          <div class="col-lg-3 col-md-6">
+            <div class="member" data-aos="fade-up" data-aos-delay="200">
+              <img src="assets/img/team/hamza.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Muhammad Hamza Iqbal</h4>
+                  <span>MS Student</span>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="member" data-aos="fade-up" data-aos-delay="200">
+              <img src="assets/img/team/affera.png" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Affera Sultan</h4>
+                  <span>MS Student</span>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-3 col-md-6">
+            <div class="member" data-aos="fade-up" data-aos-delay="200">
+              <img src="assets/img/team/ghulam.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Ghulam Baho</h4>
+                  <span>MS Student</span>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="member" data-aos="fade-up" data-aos-delay="200">
+              <img src="assets/img/team/Mizna.jpeg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Mizna Tariq</h4>
+                  <span>MS Student</span>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="member" data-aos="fade-up" data-aos-delay="200">
+              <img src="assets/img/team/Abdoulie.png" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Abdoulie</h4>
+                  <span>MS Student</span>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-3 col-md-6">
+            <div class="member" data-aos="fade-up" data-aos-delay="200">
+              <img src="assets/img/team/Aneeq.jpeg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Aneeq</h4>
+                  <span>MS Student</span>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="member" data-aos="fade-up" data-aos-delay="200">
+              <img src="assets/img/team/Gulmina.png" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Gulmina</h4>
+                  <span>MS Student</span>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="member" data-aos="fade-up" data-aos-delay="200">
+              <img src="assets/img/team/huma.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Huma</h4>
+                  <span>MS Student</span>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="member" data-aos="fade-up" data-aos-delay="200">
+              <img src="assets/img/team/MuhammadIqbal.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Muhamamd Iqbal</h4>
+                  <span>MS Student</span>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="member" data-aos="fade-up" data-aos-delay="200">
+              <img src="assets/img/team/Ahsan_dp.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Muhammad Ahsan</h4>
+                  <span>MS Student</span>
+                  
                 </div>
               </div>
             </div>
@@ -731,13 +841,55 @@
       </div>
     </section><!-- End Team Section -->
 
+    <section id="publications" class="section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h3>Publications</h3>
+        </header>
+
+        <table>
+          <tr>
+          <th>Title</th>
+          </tr>
+          <tr>
+          <td>
+            S. Alam, I. Khan, M. U. Masood, A. Ahmad, S. Ghafoor and V. Curri, "Routing and Spectrum Allocation Heuristic for Sliced Elastic Optical Network System," 2021 IEEE Photonics Society Summer Topicals Meeting Series (SUM), 2021, pp. 1-2, doi: 10.1109/SUM48717.2021.9505961.
+          </td>
+          </tr>
+          
+          <tr>
+            <td>
+              F. Shahzad et al., "Impairment-aware Virtual Network Embedding Using Time Domain Hybrid Modulation formats in Optical Networks," 2021 International Conference on Optical Network Design and Modeling (ONDM), 2021, pp. 1-6, doi: 10.23919/ONDM51796.2021.9492380.
+            </td>
+          </tr>
+
+
+          <tr>
+            <td>
+              S. Alam, M. U. Masood, I. Khan, A. Ahmad, S. Ghafoor and V. Curri, "Modeling Off-line Routing and Spectrum Allocation Problem in Elastic Optical Network," 2021 International Conference on Electrical, Communication, and Computer Engineering (ICECCE), 2021, pp. 1-6, doi: 10.1109/ICECCE52056.2021.9514112.
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              F. Usmani et al., "Evaluating Cross- feature Trained Machine Learning Models for Estimating QoT of Unestablished Lightpaths," 2021 International Conference on Electrical, Communication, and Computer Engineering (ICECCE), 2021, pp. 1-6, doi: 10.1109/ICECCE52056.2021.9514154.
+            </td>
+          </tr>
+
+      </table>
+
+      </div>
+    </section>
+
+
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="section-bg">
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
           <h3>Contact Us</h3>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+          <p>For any information, you can contact us.</p>
         </div>
 
         <div class="row contact-info">
@@ -746,7 +898,10 @@
             <div class="contact-address">
               <i class="bi bi-geo-alt"></i>
               <h3>Address</h3>
-              <address>A108 Adam Street, NY 535022, USA</address>
+              <address>Software Defined Optical Netowrk (SDON) Lab,
+                SEECS, NUST H-12, 
+              
+                Islamabad, Pakistan</address>
             </div>
           </div>
 
@@ -754,7 +909,7 @@
             <div class="contact-phone">
               <i class="bi bi-phone"></i>
               <h3>Phone Number</h3>
-              <p><a href="tel:+155895548855">+1 5589 55488 55</a></p>
+              <p><a href="tel:(051) 111 116 878">(051) 111 116 878</a></p>
             </div>
           </div>
 
@@ -762,7 +917,7 @@
             <div class="contact-email">
               <i class="bi bi-envelope"></i>
               <h3>Email</h3>
-              <p><a href="mailto:info@example.com">info@example.com</a></p>
+              <p><a href="mailto:arsalan.ahmad@seecs.edu.pk">arsalan.ahmad@seecs.edu.pk</a></p>
             </div>
           </div>
 
@@ -805,8 +960,10 @@
         <div class="row">
 
           <div class="col-lg-3 col-md-6 footer-info">
-            <h3>BizPage</h3>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
+            <h3>SDON Lab</h3>
+            <p>Software Defined Optical Netowrk (SDON) Lab
+
+            </p>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
@@ -823,11 +980,14 @@
           <div class="col-lg-3 col-md-6 footer-contact">
             <h4>Contact Us</h4>
             <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+              Software Defined Optical Netowrk (SDON) Lab,
+              <br>
+              SEECS, NUST H-12, 
+              <br>
+              Islamabad, Pakistan
+              <br>
+              <strong>Phone:</strong> (051) 111 116 878<br>
+              <strong>Email:</strong> arsalan.ahmad@seecs.edu.pk<br>
             </p>
 
             <div class="social-links">
@@ -842,7 +1002,10 @@
 
           <div class="col-lg-3 col-md-6 footer-newsletter">
             <h4>Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore legam minim quorum culpa amet magna export quem marada parida nodela caramase seza.</p>
+            <p>
+              Subscribe to Our Newsletter to get Important News, Available Opportunities & Inside Scoops:
+
+            </p>
             <form action="" method="post">
               <input type="email" name="email"><input type="submit" value="Subscribe">
             </form>
@@ -854,16 +1017,16 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong>BizPage</strong>. All Rights Reserved
+        &copy; Copyright <strong>SDON Lab</strong>. All Rights Reserved
       </div>
       <div class="credits">
         <!--
         All the links in the footer should remain intact.
         You can delete the links only if you purchased the pro version.
         Licensing information: https://bootstrapmade.com/license/
-        Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=BizPage
+        Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=SDON Lab
       -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        <!-- Designed by Muhammad Talha -->
       </div>
     </div>
   </footer><!-- End Footer -->
